@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site {
+    background-image: url(../imges/beground1.png);
+}
+
+nav {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 99999999;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 44px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.item__link {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 96.4%;
+    color: #FFFFFF;
+}
+
+.logo1 {
+    padding-right: 77px;
+}
+
+.logo3 {
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.logo2 {
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+
+/* HEADER SITE */
+
+.header {
+    position: relative;
+    padding-top: 230px;
+}
+
+.katta {
+    position: absolute;
+    left: -174px;
+    top: 420px;
+}
+
+.header__site {}
+
+.header__title {
+    font-family: 'Lighthaus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 74.9%;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.header__leni {
+    display: block;
+    max-width: 623px;
+    height: 1px;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+.header__text {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 96.4%;
+    max-width: 533px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.header__leni1 {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 96.4%;
+    color: #FFFFFF;
+    padding-right: 109px;
+}
+
+.header__leni2 {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 96.4%;
+    color: #FFFFFF;
+}
+
+.header__btn {
+    display: block;
+    padding: 16px 131px;
+    border: none;
+    margin-top: 41px;
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 96.4%;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+    border: 1px solid transparent;
+    transition: all 2s ease;
+}
+
+.header__btn:hover {
+    background: #14804d;
+    border: 1px solid #5E3928;
+    transition: all 2s ease;
+    color: #E4A16F;
+    border-radius: 5px;
+}
+
+.logo5 {
+    display: inline-block;
+}
+
+.logo6 {
+    position: absolute;
+    top: 0px;
+    right: -250px;
+    bottom: 0;
+}
+
+.logo7 {
+    position: absolute;
+    top: 150px;
+    right: 300px;
+}
+
+.kichik {
+    position: absolute;
+    right: -174px;
+    top: 420px;
+}
